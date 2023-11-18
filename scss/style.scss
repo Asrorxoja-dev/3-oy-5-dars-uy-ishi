@@ -1,0 +1,17 @@
+header {
+    background-color: aqua;
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+  
+
+
+@import "./header";
+@import "./footer";
+

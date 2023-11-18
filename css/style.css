@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+.header__container .logo {
+  display: flex;
+  gap: 10px;
+}
+.header__container .logo h2 {
+  color: #293A3C;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav h2 {
+  color: #293A3C;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-left: 90px;
+}
+
+.nav ul a {
+  width: 317px;
+  height: 21px;
+  text-decoration: none;
+  color: #293A3C;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.nav ul a:hover {
+  color: rgb(54, 26, 216);
+}
+
+.header__container {
+  display: flex;
+}
+
+.button button {
+  width: 130px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #0061FE;
+}
+.button button .h3 {
+  color: #111316;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.button button:hover {
+  background: #0061FE;
+}/*# sourceMappingURL=style.css.map */

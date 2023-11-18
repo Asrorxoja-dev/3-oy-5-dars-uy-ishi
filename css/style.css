@@ -16,8 +16,10 @@
 }
 
 .header__container {
+  width: 1410px;
   display: flex;
   align-items: center;
+  margin-bottom: 130px;
   margin-top: 30px;
   justify-content: space-evenly;
 }
@@ -47,7 +49,7 @@
   display: flex;
   list-style: none;
   gap: 30px;
-  margin-left: 90px;
+  margin-left: 190px;
 }
 
 .nav ul a {
@@ -76,6 +78,7 @@
   flex-shrink: 0;
   border-radius: 10px;
   border: 2px solid #0061FE;
+  margin-right: -150px;
 }
 .button button .h3 {
   color: #111316;
@@ -88,4 +91,71 @@
 }
 .button button:hover {
   background: #0061FE;
+}
+
+.main_container .main-text h2 {
+  width: 561px;
+  margin-left: 165px;
+  color: #293A3C;
+  font-family: "Gilroy-Bold";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.main_container {
+  display: flex;
+}
+
+.main_container .main-text p {
+  color: #293A3C;
+  font-family: Gilroy-Regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  width: 598px;
+  height: 84px;
+  margin-left: 165px;
+}
+
+.main_container .main-text button {
+  margin-left: 165px;
+  margin-top: 70px;
+  width: 225px;
+  height: 70px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 10px;
+  background: #0061FE;
+  cursor: pointer;
+  transition: all 0, 5s;
+  margin-bottom: 230px;
+}
+.main_container .main-text button:hover {
+  background: #093c8f;
+}
+.main_container .main-text button h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 26px */
+}
+
+.main_container .main-img .back-img {
+  width: 876.583px;
+  margin-right: 300px;
+  height: 646.313px;
+  transform: rotate(-360.92deg);
+  flex-shrink: 0;
+}
+
+.main_container .main-img img {
+  position: absolute;
+  margin-left: 30px;
 }/*# sourceMappingURL=style.css.map */
